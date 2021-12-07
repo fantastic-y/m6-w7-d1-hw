@@ -12,7 +12,7 @@ export const theme1 = theme("theme", {
   dark: "#2d2d2d",
 });
 
-export const theme2 = theme("theme", {
+export const theme222 = theme("theme", {
   light: "#000",
   dark: "#fff",
 });
@@ -26,7 +26,7 @@ const Container = styled.div`
   justify-content: center;
   font-family: sans-serif;
   background-color: ${theme1};
-  color: ${theme2};
+  color: ${theme222};
 `;
 
 const SwitchTheme = styled.div`
@@ -35,7 +35,7 @@ const SwitchTheme = styled.div`
   justify-content: space-between;
   padding: 0 50px;
   height: 75px;
-  background-color: ${theme2};
+  background-color: ${theme222};
   color: ${theme1};
 `
 
