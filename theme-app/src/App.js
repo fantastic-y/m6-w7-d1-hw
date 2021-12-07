@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeProvider } from "styled-components";
+import styled , { ThemeProvider } from "styled-components";
 import theme from "styled-theming";
 import { Provider as ReduxProvider } from "react-redux";
 import DarkThemeProvider from "./DarkThemeProvider";
@@ -26,6 +26,7 @@ const Container = styled.div`
   justify-content: center;
   font-family: sans-serif;
   background-color: ${theme1};
+  color: ${theme2};
 `;
 
 const SwitchTheme = styled.div`
@@ -34,6 +35,8 @@ const SwitchTheme = styled.div`
   justify-content: space-between;
   padding: 0 50px;
   height: 75px;
+  background-color: ${theme2};
+  color: ${theme1};
 `
 
 const App = () => {
